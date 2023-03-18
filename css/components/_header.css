@@ -143,7 +143,7 @@
     overflow-y: auto;
     padding: 40px;
     width: 400px;
-    height: calc(180vh - var(--header-height));
+    height: calc(100vh - var(--header-height));
     max-width: 40%;
     background-color: var(--background-color);
     transform: translateX(100%);
