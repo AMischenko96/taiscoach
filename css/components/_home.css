@@ -191,7 +191,7 @@
 
 @media screen and (max-width: 560px) {
   .home__block {
-    height: 700px;
+    height: 800px;
   }
 
   .home__info {
@@ -210,6 +210,8 @@
 
   .btn {
     font-size: 20px;
+    line-height: 26px;
+    padding: 16px 26px;
   }
 }
 

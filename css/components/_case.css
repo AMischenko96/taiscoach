@@ -94,6 +94,24 @@
   }
 }
 
+/* 450px */
+
+@media screen and (max-width: 450px) {
+  .case__cards {
+    grid-template-columns: repeat(1, 330px);
+  }
+
+  .case__card {
+    margin: 30px 0;
+  }
+
+  .case__text {
+    margin: 20px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
 /* 400px */
 
 @media screen and (max-width: 400px) {
