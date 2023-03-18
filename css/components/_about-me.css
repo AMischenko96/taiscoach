@@ -1,0 +1,212 @@
+.about-me {
+  width: 100%;
+}
+.container__about-me {
+  height: 1000px;
+  padding: 100px 40px;
+  margin: 0 auto;
+}
+
+.about-me__title {
+  margin-bottom: 70px;
+}
+
+.about-me__content {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me__photo {
+  background-image: url(../../img/photo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 3px rgb(185, 185, 185) solid;
+  box-shadow: 0 0 10px #444;
+  right: 0;
+  top: 13%;
+  width: 620px;
+  height: 620px;
+}
+
+.about-me__list {
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.about-me__item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+/* 1440px */
+
+@media screen and (max-width: 1440px)  {
+  .about-me__title {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .about-me__photo {
+    width: 600px;
+    height: 600px;
+  }
+
+  .about-me__list {
+    max-width: 550px;
+  }
+}
+
+/* 1400px */
+
+@media screen and (max-width: 1400px)  {
+  .about-me__photo {
+    width: 500px;
+    height: 500px;
+  }
+
+  .about-me__list {
+    max-width: 500px;
+  }
+}
+
+/* 1140px */
+
+@media screen and (max-width: 1140px)  {
+  .about-me__photo {
+    margin-top: 50px;
+    width: 450px;
+    height: 450px;
+  }
+
+  .about-me__list {
+    max-width: 450px;
+  }
+}
+
+
+/* 1024px */
+
+@media screen and (max-width: 1024px)  {
+  .container__about-me {
+    height: 1350px;
+  }
+
+  .about-me__content {
+    flex-direction: column;
+  }
+
+  .about-me__photo {
+    width: 620px;
+    height: 620px;
+  }
+
+  .about-me__list {
+    max-width: 600px;
+  }
+}
+
+/* 735px */
+
+@media screen and (max-width: 735px)  {
+  .about-me__title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .about-me__photo {
+    width: 580px;
+    height: 580px;
+  }
+
+  .about-me__list {
+    max-width: 580px;
+  }
+}
+
+
+/* 680px */
+
+@media screen and (max-width: 680px)  {
+  .about-me__photo {
+    width: 500px;
+    height: 500px;
+  }
+
+  .about-me__list {
+    max-width: 500px;
+  }
+}
+
+
+/* 580px */
+
+@media screen and (max-width: 580px)  {
+  .container__about-me {
+    height: 1500px;
+    padding-bottom: 0;
+  }
+
+  .about-me__photo {
+    width: 420px;
+    height: 420px;
+  }
+
+  .about-me__list {
+    max-width: 420px;
+  }
+}
+
+
+/* 520px */
+
+@media screen and (max-width: 520px)  {
+  .about-me__photo {
+    width: 380px;
+    height: 380px;
+  }
+}
+
+/* 460px */
+
+@media screen and (max-width: 460px)  {
+  .container__about-me {
+    height: 1350px;
+  }
+
+  .about-me__content {
+    padding-top: 0;
+  }
+  .about-me__photo {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+/* 390px */
+
+@media screen and (max-width: 390px)  {
+  .about-me__photo {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+/* 360px */
+
+@media screen and (max-width: 360px)  {
+  .container__about-me {
+    height: 1450px;
+  }
+
+  .about-me__photo {
+    width: 250px;
+    height: 250px;
+  }
+}

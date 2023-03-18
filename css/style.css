@@ -1,0 +1,16 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+
+/* components imports */
+@import url(./components/_header.css);
+@import url(./components/_home.css);
+@import url(./components/_coach.css);
+@import url(./components/_calendar.css);
+@import url(./components/_case.css);
+@import url(./components/_about-me.css);
+@import url(./components/_footer.css);
+@import url(./components/_feedback.css);
